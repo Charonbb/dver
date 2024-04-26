@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.doors {
+  display: flex;
+  justify-content: center;
+}
+
+.doors img {
+  width: 100px;
+  margin: 10px;
+}
+
+.scores {
+  margin-top: 20px;
+}
+
+.restart-btn {
+  margin-top: 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.restart-btn:hover {
+  background-color: darkgreen;
+}
+
+.player-turn {
+  color: green;
+}
